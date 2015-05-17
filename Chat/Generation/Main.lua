@@ -1,13 +1,15 @@
 --[[
 	
 	-- Main Documentation --
-	This is the main module for the chat in ProCore. 
+	This is the main module for the chat in Fusion Interface. 
 	You also require the local side of it to function.
 
 	At this version you will need to compile it yourself and
 	have it replicate the local GUI and scripts. For whatever
 	reason ROBLOX won't run it if you just place it in StarterGUI.
 
+	Report bugs here:
+	https://github.com/TeamNunchaku/FusionInterface/
 
 	-- Nicknames -- 
 	This chat has a feature for nicknames (see on line 101) and
@@ -25,9 +27,6 @@
 	If your name is mentioned the chat message will turn blue.
 	This is done locally and will run even if you said you name,
 	also a pretty easy fix but it is not in this script.
-
-	Not (yet) compatible with nicknames.
-
 
 	-- Admins --
 	On line 50 - 65 there is a function to identify ROBLOX admins
@@ -69,7 +68,7 @@ end
 function newPrint(text) -- The current print is overrated. 
 	if feedback==true then
 		print' ' -- an extra space
-		print'----------------[ ProChat Feedback Mode ]----------------'
+		print'----------------[ Fusion Chat Feedback Mode ]----------------'
 		print(text)
 		print'------------------------------------------------------------------'
 		print' ' -- an extra space
@@ -111,9 +110,9 @@ end
 function bootRemote()
 	newPrint("The function bootRemote() was called.")
 	script.Parent.Parent=game.ServerScriptService
-	if not workspace:findFirstChild'ProChat' then
+	if not workspace:findFirstChild'FusionChat' then
 		local dire = Instance.new'Folder'
-			dire.Name="ProChat"
+			dire.Name="FusionChat"
 			dire.Parent=workspace
 		local reTrigger = Instance.new'RemoteEvent'
 			reTrigger.Parent=dire
@@ -211,15 +210,15 @@ function generateMessage(msg,player)
 end
 
 -- This will continue the function bootRemote until it is launched.
-repeat bootRemote() wait() newPrint'Booting Chat events...' until workspace:findFirstChild'ProChat'
+repeat bootRemote() wait() newPrint'Booting Chat events...' until workspace:findFirstChild'FusionChat'
 
 -- Calculate OnServerEvent
-workspace.ProChat.Chatted2.OnServerEvent:connect(function(player,msg)
+workspace.FusionChat.Chatted2.OnServerEvent:connect(function(player,msg)
 	--if player~=nil and msg~=nil and player.userId > 0 then -- Guest
 		newPrint("Generating message for "..player.Name..". Message = "..msg)
 		generateMessage(msg,player)
 	--end
 end)
-workspace.ProChat.OnGuiSpawn.OnServerEvent:connect(function(player)
+workspace.FusionChat.OnGuiSpawn.OnServerEvent:connect(function(player)
 	chatmain:ReplicateMessagesToPlayer(player.Name)
 end)
