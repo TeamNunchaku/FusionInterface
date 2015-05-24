@@ -13,7 +13,8 @@ afraid
 Africa 
 after 
 again 
-against age 
+against
+age 
 ago 
 agreed 
 ahead 
@@ -285,6 +286,7 @@ explain
 express 
 eye 
 face
+Facebook
 fact
 factories 
 factors 
@@ -428,6 +430,7 @@ industry
 information
 insects
 inside 
+Instagram
 instead
 instruments
 interest 
@@ -894,8 +897,10 @@ trouble
 truck 
 true 
 try 
-tube 
+tube
+Tumblr
 turn 
+Twitter
 two 
 type 
 uncle
@@ -995,3 +1000,8 @@ young
 your
 you're
 yourself 
+zone
+zilch
+zero
+zebra
+
