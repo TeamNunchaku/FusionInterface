@@ -1,11 +1,11 @@
 <roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
 	<External>null</External>
 	<External>nil</External>
-	<Item class="ScreenGui" referent="RBX590DF4973B9549CEB07C3A81A33A4419">
+	<Item class="ScreenGui" referent="RBX14FC997CE41B4BAAB192B9C62EB4F62F">
 		<Properties>
 			<string name="Name">chatGui</string>
 		</Properties>
-		<Item class="Frame" referent="RBX030CE1D2FF814173924CA9028ABFF908">
+		<Item class="Frame" referent="RBX6C2C9C0014304E5286CBBB8001C32F1E">
 			<Properties>
 				<bool name="Active">false</bool>
 				<Color3 name="BackgroundColor3">4294967295</Color3>
@@ -33,88 +33,16 @@
 				<bool name="Visible">true</bool>
 				<int name="ZIndex">1</int>
 			</Properties>
-		</Item>
-		<Item class="Frame" referent="RBX2DE1A81F5195421598BD57FA9AC51009">
-			<Properties>
-				<bool name="Active">false</bool>
-				<Color3 name="BackgroundColor3">4294967295</Color3>
-				<float name="BackgroundTransparency">1</float>
-				<Color3 name="BorderColor3">4279970357</Color3>
-				<int name="BorderSizePixel">1</int>
-				<bool name="ClipsDescendants">false</bool>
-				<bool name="Draggable">false</bool>
-				<string name="Name">chatholder</string>
-				<UDim2 name="Position">
-					<XS>0.00999999978</XS>
-					<XO>0</XO>
-					<YS>0.699999988</YS>
-					<YO>0</YO>
-				</UDim2>
-				<float name="Rotation">0</float>
-				<UDim2 name="Size">
-					<XS>0</XS>
-					<XO>200</XO>
-					<YS>0</YS>
-					<YO>100</YO>
-				</UDim2>
-				<token name="SizeConstraint">0</token>
-				<token name="Style">0</token>
-				<bool name="Visible">true</bool>
-				<int name="ZIndex">1</int>
-			</Properties>
-			<Item class="TextLabel" referent="RBX145BE63C4BAD4D4AAC449F78696DE25F">
+			<Item class="Frame" referent="RBX02E85ED5F2B8459F910A864EA9A350B1">
 				<Properties>
 					<bool name="Active">false</bool>
-					<Color3 name="BackgroundColor3">4281616734</Color3>
-					<float name="BackgroundTransparency">1</float>
-					<Color3 name="BorderColor3">4281616734</Color3>
-					<int name="BorderSizePixel">3</int>
+					<Color3 name="BackgroundColor3">4281089616</Color3>
+					<float name="BackgroundTransparency">0</float>
+					<Color3 name="BorderColor3">4281089616</Color3>
+					<int name="BorderSizePixel">1</int>
 					<bool name="ClipsDescendants">false</bool>
 					<bool name="Draggable">false</bool>
-					<token name="Font">2</token>
-					<token name="FontSize">5</token>
-					<string name="Name">char</string>
-					<UDim2 name="Position">
-						<XS>0.00999999978</XS>
-						<XO>0</XO>
-						<YS>0</YS>
-						<YO>25</YO>
-					</UDim2>
-					<float name="Rotation">0</float>
-					<UDim2 name="Size">
-						<XS>1</XS>
-						<XO>0</XO>
-						<YS>0</YS>
-						<YO>25</YO>
-					</UDim2>
-					<token name="SizeConstraint">0</token>
-					<string name="Text">LOADING</string>
-					<Color3 name="TextColor3">4294967295</Color3>
-					<bool name="TextScaled">true</bool>
-					<Color3 name="TextStrokeColor3">4278190080</Color3>
-					<float name="TextStrokeTransparency">0.800000012</float>
-					<float name="TextTransparency">0.5</float>
-					<bool name="TextWrapped">true</bool>
-					<token name="TextXAlignment">0</token>
-					<token name="TextYAlignment">1</token>
-					<bool name="Visible">true</bool>
-					<int name="ZIndex">2</int>
-				</Properties>
-			</Item>
-			<Item class="TextBox" referent="RBX4ED3981746794814BBFB5A39161AA49D">
-				<Properties>
-					<bool name="Active">false</bool>
-					<Color3 name="BackgroundColor3">4281616734</Color3>
-					<float name="BackgroundTransparency">1</float>
-					<Color3 name="BorderColor3">4281616734</Color3>
-					<int name="BorderSizePixel">3</int>
-					<bool name="ClearTextOnFocus">true</bool>
-					<bool name="ClipsDescendants">false</bool>
-					<bool name="Draggable">false</bool>
-					<token name="Font">2</token>
-					<token name="FontSize">6</token>
-					<bool name="MultiLine">false</bool>
-					<string name="Name">input</string>
+					<string name="Name">splashScreen</string>
 					<UDim2 name="Position">
 						<XS>0</XS>
 						<XO>0</XO>
@@ -123,206 +51,459 @@
 					</UDim2>
 					<float name="Rotation">0</float>
 					<UDim2 name="Size">
-						<XS>5</XS>
+						<XS>1</XS>
 						<XO>0</XO>
-						<YS>0</YS>
-						<YO>20</YO>
+						<YS>1</YS>
+						<YO>0</YO>
 					</UDim2>
 					<token name="SizeConstraint">0</token>
-					<string name="Text">Press &quot;/&quot; to type.</string>
-					<Color3 name="TextColor3">4294967295</Color3>
-					<bool name="TextScaled">true</bool>
-					<Color3 name="TextStrokeColor3">4278190080</Color3>
-					<float name="TextStrokeTransparency">0.899999976</float>
-					<float name="TextTransparency">0.5</float>
-					<bool name="TextWrapped">true</bool>
-					<token name="TextXAlignment">0</token>
-					<token name="TextYAlignment">1</token>
+					<token name="Style">0</token>
 					<bool name="Visible">true</bool>
 					<int name="ZIndex">1</int>
 				</Properties>
+				<Item class="TextLabel" referent="RBX03CF730D91704A729F7957AC43DCD05D">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Color3 name="BackgroundColor3">4294967295</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">4279970357</Color3>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">2</token>
+						<token name="FontSize">9</token>
+						<string name="Name">FusionObj</string>
+						<UDim2 name="Position">
+							<XS>0.5</XS>
+							<XO>-120</XO>
+							<YS>0.5</YS>
+							<YO>-25</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>150</XO>
+							<YS>0</YS>
+							<YO>50</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<string name="Text">Fusion</string>
+						<Color3 name="TextColor3">4294034447</Color3>
+						<bool name="TextScaled">false</bool>
+						<Color3 name="TextStrokeColor3">4294034447</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<bool name="TextWrapped">true</bool>
+						<token name="TextXAlignment">2</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX3A9DB0D62DFE423D80B6F8A1E953F1B1">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Color3 name="BackgroundColor3">4294967295</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">4279970357</Color3>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">1</token>
+						<token name="FontSize">5</token>
+						<string name="Name">VersionObj</string>
+						<UDim2 name="Position">
+							<XS>0.5</XS>
+							<XO>-100</XO>
+							<YS>0.5</YS>
+							<YO>15</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>200</XO>
+							<YS>0</YS>
+							<YO>10</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<string name="Text">T E A M  N U N C H A K U</string>
+						<Color3 name="TextColor3">4293718257</Color3>
+						<bool name="TextScaled">false</bool>
+						<Color3 name="TextStrokeColor3">4278190080</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<bool name="TextWrapped">true</bool>
+						<token name="TextXAlignment">2</token>
+						<token name="TextYAlignment">0</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX17B3C7FD2B6A4169A554EFC582134D14">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Color3 name="BackgroundColor3">4294967295</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">4279970357</Color3>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">1</token>
+						<token name="FontSize">9</token>
+						<string name="Name">ChatObj</string>
+						<UDim2 name="Position">
+							<XS>0.5</XS>
+							<XO>-85</XO>
+							<YS>0.5</YS>
+							<YO>-25</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>200</XO>
+							<YS>0</YS>
+							<YO>50</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<string name="Text">Chat</string>
+						<Color3 name="TextColor3">4293388263</Color3>
+						<bool name="TextScaled">false</bool>
+						<Color3 name="TextStrokeColor3">4278190080</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<bool name="TextWrapped">true</bool>
+						<token name="TextXAlignment">1</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
 			</Item>
-			<Item class="LocalScript" referent="RBXAB15C24DE39443468DF54176DB96C90D">
+			<Item class="Frame" referent="RBX8450CD79FDF04E109CE9E2F55717D952">
 				<Properties>
-					<bool name="Disabled">false</bool>
-					<Content name="LinkedSource"><null></null></Content>
-					<string name="Name">handle</string>
-					<ProtectedString name="Source"><![CDATA[--[[
-	This is for the local part of the chat.
-	I really dislike using this but haven't been able to get it working in the main script yet.
+					<bool name="Active">false</bool>
+					<Color3 name="BackgroundColor3">4294967295</Color3>
+					<float name="BackgroundTransparency">1</float>
+					<Color3 name="BorderColor3">4279970357</Color3>
+					<int name="BorderSizePixel">1</int>
+					<bool name="ClipsDescendants">false</bool>
+					<bool name="Draggable">false</bool>
+					<string name="Name">chatholder</string>
+					<UDim2 name="Position">
+						<XS>0</XS>
+						<XO>0</XO>
+						<YS>0</YS>
+						<YO>0</YO>
+					</UDim2>
+					<float name="Rotation">0</float>
+					<UDim2 name="Size">
+						<XS>1</XS>
+						<XO>0</XO>
+						<YS>1</YS>
+						<YO>0</YO>
+					</UDim2>
+					<token name="SizeConstraint">0</token>
+					<token name="Style">0</token>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+				<Item class="TextLabel" referent="RBX59D7C7771EEA4AC2933CB5D6DD584F88">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Color3 name="BackgroundColor3">4293718257</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">4293718257</Color3>
+						<int name="BorderSizePixel">3</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">1</token>
+						<token name="FontSize">5</token>
+						<string name="Name">char</string>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>430</XO>
+							<YS>1</YS>
+							<YO>0</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>70</XO>
+							<YS>0</YS>
+							<YO>20</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<string name="Text"></string>
+						<Color3 name="TextColor3">4279369472</Color3>
+						<bool name="TextScaled">true</bool>
+						<Color3 name="TextStrokeColor3">4278190080</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<bool name="TextWrapped">true</bool>
+						<token name="TextXAlignment">0</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">2</int>
+					</Properties>
+				</Item>
+				<Item class="TextBox" referent="RBX962F4FD9E94B4537AF87F1BBF2837FDD">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Color3 name="BackgroundColor3">4293718257</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">4293718257</Color3>
+						<int name="BorderSizePixel">3</int>
+						<bool name="ClearTextOnFocus">true</bool>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">1</token>
+						<token name="FontSize">8</token>
+						<bool name="MultiLine">false</bool>
+						<string name="Name">Textbox</string>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>0</XO>
+							<YS>1</YS>
+							<YO>0</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>430</XO>
+							<YS>0</YS>
+							<YO>20</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<string name="Text">Press &quot;/&quot; to type.</string>
+						<Color3 name="TextColor3">4280910009</Color3>
+						<bool name="TextScaled">true</bool>
+						<Color3 name="TextStrokeColor3">4280910009</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<bool name="TextWrapped">true</bool>
+						<token name="TextXAlignment">0</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX38816AF1650141EF939390ED565E022F">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">handle</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+	FINALLY Redid this! Wow. It's MUCH MORE efficient and less terrible. 
 
-	Organized this in latest update.
-
+	Client-side part of FusionChat. Automatically replicated. 
 ]]
---Generic variables
-repeat wait() print'Waiting for player to load' until game.Players.LocalPlayer
-local player = game.Players.LocalPlayer
-	local mouse = player:GetMouse()
 
-repeat wait() until workspace:findFirstChild'FusionChat'
---more variables
-SendBtn=script.Parent.MobileSendBtn
-typer = script.Parent.input
-maxnumber=150
-stockphrase = 'Press "/" to type.'
-UID = game:GetService("UserInputService")
+local PackageName   = "FusionChat"
+SendBtn 	        = script.Parent.MobileSendBtn
+TextBox  	 	    = script.Parent.Textbox
+MaxCharacters 	    = 150
+Prephrase 	        = 'Press "/" to type.'
+UIS  			    = game:GetService("UserInputService")
+MobileEnabled       = UIS.TouchEnabled
+MainFrame 			= script.Parent.Parent
 
---Remove CoreGUI. 
-local StarterGui = game:GetService('StarterGui')
-StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+dependencies        = {
+	game.Players.LocalPlayer;
+	workspace:findFirstChild(PackageName);
+}
 
---Temporary fix for mobile users
-if UID.TouchEnabled==true then
-	script.Parent.Position=UDim2.new(0.01,0,0.55,0)
-	stockphrase='Tap to start typing.'
-	typer.Text=stockphrase
-	SendBtn.Visible=true
+local function Exec()
+	-- Loop through dependencies so we can keep going. Pauses thread. 
+	for _,v in pairs(dependencies) do
+		repeat wait() print(' Waiting for dependencies to load... [ '..v.Name..' ] ') until v~=nil -- Output spam until it finds all the requirements.
+	end
+	Mouse = game.Players.LocalPlayer:GetMouse() -- Fix mouse dependancies 
+	--Remove CoreGUI. 
+	local StarterGui = game:GetService('StarterGui')
+		StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+	-- If user is detected as using a mobile device
+	if MobileEnabled ==true then
+		Prephrase    = 'Tap to start typing.' 
+		TextBox.Text = Prephrase 
+		SendBtn.Visible=true -- A button to send instead of the PC version
+	end
+	return true -- Let's us know when we can continue 
 end
+
+
+-- Method to wait until the function Exec is finished
+local PauseThread = Exec() -- Will pause until it gets some sort of return
+repeat wait() until PauseThread~=nil -- Just in case the thread doesn't pause.
+
 	
 --Captures focus	
-function animate()
-	typer.Text = ""
-	typer:CaptureFocus()
-	for i = 0.5,0,-.1 do
-		game:GetService("RunService").RenderStepped:wait()
-		typer.TextTransparency=i
-		script.Parent.char.TextTransparency=i
-	end
+function CaptureFocus()
+	TextBox.Text = ""
+	TextBox:CaptureFocus()
 end
 
--- This is for detecting the mention
+-- Messy :C oh well 
+function UpdateCharCounter()
+	local number = string.len(script.Parent.Textbox.Text)
+	--Fill the label
+	if TextBox.Text ~= Prephrase and TextBox.Text ~= "" then
+		script.Parent.char.Text = MaxCharacters-number.."/"..MaxCharacters
+	else
+		number=0
+		script.Parent.char.Text = MaxCharacters-number.."/"..MaxCharacters
+	end
+	--Set the color
+	if number>(MaxCharacters-(MaxCharacters/3)) then
+		script.Parent.char.TextColor3=Color3.new(212/255, 19/255, 22/255)
+		else
+		script.Parent.char.TextColor3=Color3.new(10/255, 151/255, 212/255)
+	end
+	--Set it back to the correct length.
+	if number>MaxCharacters then
+		TextBox.Text = string.sub(TextBox.Text,0,MaxCharacters)
+	end 
+end
+
+-- Detects mentions in messages and if found, highlight text
 function detectMention(message)	
+	local function ColorText(message)
+		message.msg.TextColor3=Color3.new(39/255, 174/255, 96/255)
+		message.msg.TextStrokeTransparency=0.1
+	end
 	repeat wait() until message:findFirstChild'msg'
 	for w in string.gmatch(message.msg.Text, "%a+") do
-	    if string.len(w)>1 and string.lower(w)==string.lower(string.sub(player.Name,1,string.len(w))) then
-	    	message.msg.TextColor3=Color3.new(39/255, 174/255, 96/255)
-			message.msg.TextStrokeTransparency=0.1
-	    end
-	    if player:FindFirstChild(".nickname") then
-			if string.len(w)>1 and string.lower(w)==string.lower(string.sub(player:FindFirstChild(".nickname").Value,1,string.len(w))) then
-				message.msg.TextColor3=Color3.new(39/255, 174/255, 96/255)
-				message.msg.TextStrokeTransparency=0.1
-			end
-		end
+	    if string.len(w)>1 and string.lower(w)==string.lower(string.sub(player.Name,1,string.len(w))) or player:findFirstChild'.nickname' and string.len(w)>1 and string.lower(w)==string.lower(string.sub(player:FindFirstChild(".nickname").Value,1,string.len(w))) then
+	    	ColorText(message)
+		end	    	
 	end
 end
 
--- To send the message
-function send()
-	if typer.Text ~= stockphrase and typer.Text ~= "" and typer.Text ~=" " then
+-- Trigger the RemoteEvent to send the message
+function SendMessage()
+	if TextBox.Text ~= Prephrase and TextBox.Text ~= "" and TextBox.Text ~=" " then
 		--Good good, let's continue.
 		if workspace:findFirstChild'FusionChat' then
-			workspace.FusionChat.Chatted2:FireServer(string.sub(typer.Text,0,maxnumber))
-			typer.Text = stockphrase
-
-		--Animations
-			for i = 0,0.5,.1 do
-				game:GetService("RunService").RenderStepped:wait() --loveya
-				typer.TextTransparency=i
-				script.Parent.char.TextTransparency=i
-			end
-
+			workspace.FusionChat.Chatted2:FireServer(string.sub(TextBox.Text,0,MaxCharacters))
+			TextBox.Text = Prephrase
 		end		
 	end
 end
 
--- Detect keyboard input
-UID.InputBegan:connect(function(input)
+-- Detect -ALL- keyboard input
+UIS.InputBegan:connect(function(input)
+	-----------------------------------------------------------------
+	-- If the enter key is pushed, it will send the message
 	if input.KeyCode == Enum.KeyCode.Return then
-		send()
-		typer.Text = stockphrase
+		SendMessage()
+		TextBox.Text = Prephrase
 	end
-
+	-- Focus the textbox if the / is pressed
 	if input.KeyCode == Enum.KeyCode.Slash then
-		if typer.Text==stockphrase then
-			animate()
+		if TextBox.Text==Prephrase then
+			CaptureFocus()
 		end
 	end
-	
+	-- Reset if you press escape
 	if input.KeyCode == Enum.KeyCode.Escape then
-		typer.Text = stockphrase
+		TextBox.Text = Prephrase
 	end
+	-----------------------------------------------------------------
+	-- Trigger the character update everytime a key is pressed
+	UpdateCharCounter()
+	-----------------------------------------------------------------
 end)
 
 -- This will fire when the mobile button is clicked.
 SendBtn.MouseButton1Click:connect(function()
-	send()
+	SendMessage()
 end)
 
 --This will fire when a message is added.
-script.Parent.Parent.Frame.ChildAdded:connect(function(c)
+MainFrame.ChildAdded:connect(function(c)
 	repeat wait() until c:findFirstChild('name')
 	if c:IsA'Frame' and c.Name=="message" and string.lower(c.name.Text)~=string.lower(" "..player.Name..":") then detectMention(c) end
+	if MainFrame:findFirstChild'splashScreen' then MainFrame:findFirstChild'splashScreen':Destroy() end
 end)
 
 
 --This is to track the character count of the textbox, ugly because I can't find a proper event.
 -- if someone finds a better way to do it, pls do a pull request. 
 workspace.FusionChat.OnGuiSpawn:FireServer()
-while wait() do
-	local number = string.len(script.Parent.input.Text)
-	--Fill the label
-	if typer.Text ~= stockphrase and typer.Text ~= "" then
-		script.Parent.char.Text = maxnumber-number.." characters left"
-	else
-		number=0
-		script.Parent.char.Text = maxnumber-number.." characters left"
-	end
-	--Set the color
-	if number>(maxnumber-(maxnumber/3)) then
-		script.Parent.char.TextColor3=Color3.new(212/255, 19/255, 22/255)
-		else
-		script.Parent.char.TextColor3=Color3.new(10/255, 151/255, 212/255)
-	end
-	--Set it back to the correct length.
-	if number>maxnumber then
-		typer.Text = string.sub(typer.Text,0,maxnumber)
-	end 
-end]]></ProtectedString>
-				</Properties>
-			</Item>
-			<Item class="TextButton" referent="RBXF852B5B1DCA545B88EF30A4A28B2569F">
-				<Properties>
-					<bool name="Active">true</bool>
-					<bool name="AutoButtonColor">true</bool>
-					<Color3 name="BackgroundColor3">4281637083</Color3>
-					<float name="BackgroundTransparency">0</float>
-					<Color3 name="BorderColor3">4281637083</Color3>
-					<int name="BorderSizePixel">3</int>
-					<bool name="ClipsDescendants">false</bool>
-					<bool name="Draggable">false</bool>
-					<token name="Font">3</token>
-					<token name="FontSize">7</token>
-					<bool name="Modal">false</bool>
-					<string name="Name">MobileSendBtn</string>
-					<UDim2 name="Position">
-						<XS>0</XS>
-						<XO>0</XO>
-						<YS>0</YS>
-						<YO>-30</YO>
-					</UDim2>
-					<float name="Rotation">0</float>
-					<bool name="Selected">false</bool>
-					<UDim2 name="Size">
-						<XS>0.730000019</XS>
-						<XO>0</XO>
-						<YS>0</YS>
-						<YO>20</YO>
-					</UDim2>
-					<token name="SizeConstraint">0</token>
-					<token name="Style">0</token>
-					<string name="Text">Send</string>
-					<Color3 name="TextColor3">4293848814</Color3>
-					<bool name="TextScaled">false</bool>
-					<Color3 name="TextStrokeColor3">4293848814</Color3>
-					<float name="TextStrokeTransparency">0.800000012</float>
-					<float name="TextTransparency">0</float>
-					<bool name="TextWrapped">false</bool>
-					<token name="TextXAlignment">2</token>
-					<token name="TextYAlignment">1</token>
-					<bool name="Visible">false</bool>
-					<int name="ZIndex">1</int>
-				</Properties>
+]]></ProtectedString>
+					</Properties>
+				</Item>
+				<Item class="TextButton" referent="RBX24599A4156164612A131D009E2718370">
+					<Properties>
+						<bool name="Active">true</bool>
+						<bool name="AutoButtonColor">true</bool>
+						<Color3 name="BackgroundColor3">4293718257</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">4293718257</Color3>
+						<int name="BorderSizePixel">3</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">3</token>
+						<token name="FontSize">7</token>
+						<bool name="Modal">false</bool>
+						<string name="Name">MobileSendBtn</string>
+						<UDim2 name="Position">
+							<XS>0.5</XS>
+							<XO>-200</XO>
+							<YS>1</YS>
+							<YO>30</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<bool name="Selected">false</bool>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>400</XO>
+							<YS>0</YS>
+							<YO>20</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<token name="Style">0</token>
+						<string name="Text">Send</string>
+						<Color3 name="TextColor3">4281637083</Color3>
+						<bool name="TextScaled">false</bool>
+						<Color3 name="TextStrokeColor3">4293848814</Color3>
+						<float name="TextStrokeTransparency">0.800000012</float>
+						<float name="TextTransparency">0</float>
+						<bool name="TextWrapped">false</bool>
+						<token name="TextXAlignment">2</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">false</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="Frame" referent="RBX0BFC51D1858544F592C9A105C68CC615">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Color3 name="BackgroundColor3">4290626503</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">4290626503</Color3>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<string name="Name">Drawr</string>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>0</XO>
+							<YS>1</YS>
+							<YO>22</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<UDim2 name="Size">
+							<XS>1</XS>
+							<XO>0</XO>
+							<YS>0</YS>
+							<YO>3</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<token name="Style">0</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
 			</Item>
 		</Item>
 	</Item>
